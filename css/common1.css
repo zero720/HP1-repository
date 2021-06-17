@@ -1,0 +1,17 @@
+body {
+  font-size:15px;
+  line-height: 1.8;
+  letter-spacing:1px;
+  word-break: break-all;
+  color:#555;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {
+  list-style:none;
+}
+

@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+.recruit_top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recruit_top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.recruit_top li {
+  text-align: center;
+  padding: 50px;
+}
+
+.recruit_top li a {
+  color: #555;
+}
+
+.recruit_top li a:hover {
+  opacity: 0.5;
+}
+
+.recruit_top li small {
+  color: green;
+}
+
+#recruit_list1,
+#recruit_list2,
+#recruit_list3 {
+  display: inline-block;
+}
+
+.recruit_list {
+  width: 100%;
+}
+
+.recruit_list h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #555;
+  line-height: 0.8;
+  padding-bottom: 7%;
+}
+
+.recruit_list h2 small {
+  font-size: 12px;
+  color: green;
+}
+
+.recruit_list h3 {
+  font-size: 20px;
+  color: #555;
+  font-weight: normal;
+  padding-bottom: 7%;
+}
+
+.recruit_list p {
+  width: 80%;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: 3px;
+  line-height: 2.6;
+}
+
+.recruit_item1 {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.recruit_item2 {
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+}
+
+.recruit_bg {
+  background: #eee;
+  width: 85%;
+  height: auto;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  z-index: 0;
+}
+
+.recruit_element {
+  padding: 30% 0 5%;
+}
+
+.recruit_element p {
+  font-size: 150px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  float: right;
+}
+
+.intern {
+  display: inline-block;
+}
+
+.intern h1 {
+  font-size:40px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10%;
+}
+
+.intern h1 span {
+  font-size: green;
+}
+
+.intern h1 small {
+  font-size:20px;
+}
+
+.member {
+  display: flex;
+  width: 100%;
+}
+
+.member li {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 25%;
+  height: 540px;
+}
+
+.member .member1 {
+  background: url(../img/member.png) center center no-repeat;
+  background-size: cover;
+}
+
+.member_info {
+  position: relative;
+  width: 100%;
+  padding: 35px 45px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  overflow: hidden;
+}
+
+.member_name p {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.member_name p small {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.member_department {
+  padding-top: 8px;
+}
+
+.intern_intro {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+.intro_txt {
+  width: 45%;
+  padding: 0 100px 50px 100px;
+}
+
+.intro_txt h2 {
+  font-size: 30px;
+  line-height: 1;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.intro_txt h2 small {
+  font-size: 15px;
+  color: green;
+}
+
+.intro_descript {
+  font-size: 13px;
+  letter-spacing: 5px;
+  line-height: 2.5;
+  color: #555;
+}
+
+.discussion_talk {
+  margin-bottom: 150px;
+  padding: 100px 100px 150px;
+  background-color: #eee;
+}
+
+.question_ttl {
+  font-size: 25px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.question_ttl p span {
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 20px;
+ color: green;
+}
+
+.question_list {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.question_list li {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.question_member {
+  margin-right: 60px;
+}
+
+.question_member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+}
+
+.question_member p {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.question_txt {
+  width: 80%;
+  padding-top: 10px;
+  line-height: 2.5;
+}
+
+label {
+  margin-left:300px;
+ display: inline-block;
+ margin-bottom:50px;
+}
+
+.button {
+margin-left: 600px;
+}
+
+.form {
+  margin-top:300px;
+  height:1000px;
+}
+
+.form p  {
+  margin-bottom:50px;
+}
+
+input,
+textarea  {
+  border: solid green 1px;
+  margin-bottom: 15px;
+  width:65%;
+  float:right;
+}
+
+input {
+  width:300px;
+  padding: 6px;
+  margin-right:570px;
+}
+
+textarea {
+  height:200px;
+ 
+}
+
+.button {
+  background-color:green;
+  color:white;
+  border:none;
+  margin-top:50px;
+  width:200px;
+  height:50px;
+}
+
+.form-inner p {
+  text-align: center;
+  font-size:50px;
+  font-weight:bold;
+  color:green;
+  }
+  
+  .form-inner small {
+  color:#555;
+  font-size:20px;
+  }
+  
