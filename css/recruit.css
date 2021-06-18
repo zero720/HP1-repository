@@ -117,7 +117,7 @@
 }
 
 .intern h1 span {
-  font-size: green;
+  color: green;
 }
 
 .intern h1 small {
@@ -175,10 +175,13 @@
   margin: 0 auto;
 }
 
+
 .intro_txt {
   width: 45%;
   padding: 0 100px 50px 100px;
 }
+
+
 
 .intro_txt h2 {
   font-size: 30px;
@@ -284,7 +287,8 @@ input {
 
 textarea {
   height:200px;
- 
+  margin-right:570px;
+  width:23%;
 }
 
 .button {

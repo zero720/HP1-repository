@@ -442,7 +442,8 @@ input {
 
 textarea {
   height:200px;
- 
+ margin-right:570px;
+ width:23%;
 }
 
 .button {
